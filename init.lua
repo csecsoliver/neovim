@@ -1,4 +1,3 @@
-
 -- neovim version 0.11.4
 vim.opt.nu = true        -- Show line numbers
 vim.opt.relativenumber = false -- Show relative line numbers
@@ -6,8 +5,8 @@ vim.opt.tabstop = 4      -- Number of spaces in a tab
 vim.opt.shiftwidth = 4   -- Number of spaces inserted for each indentation
 vim.opt.expandtab = true -- Convert tabs to spaces
 vim.opt.smartindent = true -- Smart indentation
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = ','
+vim.g.maplocalleader = ','
 vim.o.mouse = 'a'
 
 vim.o.list = true
