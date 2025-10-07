@@ -1,5 +1,5 @@
 
-
+-- neovim version 0.11.4
 vim.opt.nu = true        -- Show line numbers
 vim.opt.relativenumber = false -- Show relative line numbers
 vim.opt.tabstop = 4      -- Number of spaces in a tab
@@ -35,6 +35,5 @@ vim.o.confirm = true
 
 
 require('plugins')
-
 require('mason').setup()
-require('mason').setup()
+require('mason-lspconfig').setup()

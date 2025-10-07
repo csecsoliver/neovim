@@ -21,12 +21,7 @@ return require('packer').startup(function(use)
     use 'wakatime/vim-wakatime'
     use 'nvim-telescope/telescope.nvim'
     use 'NMAC427/guess-indent.nvim'
-    use {
-        'williamboman/mason.nvim',
-        config = function()
-            require('mason').setup()
-        end
-    }
+    use 'williamboman/mason.nvim'
     use 'williamboman/mason-lspconfig.nvim'
     use {
         "zbirenbaum/copilot.lua",
